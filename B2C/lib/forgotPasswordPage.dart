@@ -28,20 +28,22 @@ class _forgotPasswordPageState extends State<forgotPasswordPage> {
     return Scaffold(
       appBar: AppBar(
         title: Center(
-          child: Text('Example Firebase',
-              style:
-                  TextStyle(color: Colors.white, fontFamily: 'Noto Sans Thai')),
+          child: Text(
+            '',
+          ),
         ),
-        actions: [Icon(Icons.help, color: Colors.white)],
         backgroundColor: Color.fromARGB(255, 25, 118, 210),
       ),
       body: Container(
-        margin: EdgeInsets.all(20),
+        margin: EdgeInsets.all(10),
         child: Form(
           key: _formKey,
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.start,
             children: [
+              SizedBox(
+                height: 200,
+              ),
               Text(
                 'Enter your email to get a password reset link',
                 textAlign: TextAlign.center,

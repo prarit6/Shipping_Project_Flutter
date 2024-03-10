@@ -20,6 +20,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(children: [
+        SizedBox(
+          height: 60,
+        ),
         Container(
           height: 140,
           child: Align(
@@ -90,12 +93,6 @@ class MyApp extends StatelessWidget {
             )),
         //backgroundColor: Color.fromRGBO(40, 84, 48, 1),
         backgroundColor: Colors.blue[700],
-      ),
-      bottomNavigationBar: SizedBox(
-        height: 50,
-        child: BottomAppBar(
-          color: Colors.blue[700],
-        ),
       ),
     );
   }
