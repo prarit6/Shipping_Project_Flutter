@@ -359,7 +359,6 @@ class _OutputState extends State<output> {
                   '${user.NameAndSurname}',
                   style: TextStyle(fontSize: 15, fontFamily: 'Noto Sans Thai'),
                 ),
-                Text('${user.id}'),
               ],
             ),
           ),
